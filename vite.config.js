@@ -3,6 +3,7 @@ import { defineConfig } from "vite";
 
 export default defineConfig({
   plugins: [react()],
+  base: "/bill-split-calculator/",
   resolve: {
     alias: {
       "@": "/src",
